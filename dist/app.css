@@ -1,0 +1,33 @@
+/* variabili */
+body {
+  background-color: #D4CBB3;
+}
+
+h1 {
+  color: #CE96A6;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.sass {
+  color: #CE84AD;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-text-stroke: 1px black;
+  text-transform: uppercase;
+}
+
+button .sass {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #CE96A6;
+  box-shadow: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 18px;
+}

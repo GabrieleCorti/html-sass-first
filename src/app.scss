@@ -1,0 +1,42 @@
+/* variabili */
+$color_primary:  #CE84AD;
+$color_secondary: #CE96A6;
+$color_base: #D4CBB3;
+$sass_size: 40px;
+$font_big: 20px;
+$btn_font: 18px;
+
+
+
+body {
+    background-color: $color_base;
+}
+
+h1 {
+    color: $color_secondary;
+}
+
+h2 {
+    font-size: $font_big;
+}
+
+.sass {
+    color: $color_primary;
+    font-weight: bold;
+    font-size: $sass_size;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+}
+
+button .sass {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: $color_secondary;
+    box-shadow: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: $btn_font;
+}
